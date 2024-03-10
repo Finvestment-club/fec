@@ -3,7 +3,7 @@ import MyNavbar from "./navbar/Navbar";
 import Home from "./homepage/Home";
 // import Stockbar from "./stockbar/stockbar";
 import About from "./about/about";
-import TradingViewWidget from "../components/chart/TradingViewWidget";
+import TradingViewWidget from "../src/components/chart/TradingViewWidget"
 import Team from "./team/team";
 // import Investopedia from "../components/investopediaData/investopediaData"
 
@@ -19,7 +19,7 @@ export default function App() {
             </Routes>
             <MyNavbar />
             <About/>
-            <Team/>
+            {/* <Team/> */}
         </BrowserRouter>
     );
 }
